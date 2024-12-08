@@ -9,7 +9,7 @@ export class GeminiService {
   private model: any;
 
   constructor() { 
-    this.genAI = new GoogleGenerativeAI('AIzaSyC5g7ha8gd9llphUR2ZwwQaum2VXDX6gSA');
+    this.genAI = new GoogleGenerativeAI('#');
     this.model = this.genAI.getGenerativeModel({ model: 'gemini-pro' });
   }
 
